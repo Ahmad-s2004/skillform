@@ -64,7 +64,7 @@ const App = () => {
       <h4 className='font-semibold'>SKILLFORM</h4>
     </div>
 
-    <div className="hero flex flex-col md:flex-row items-start md:items-end mt-6 gap-4 md:gap-0">
+    <div className="hero flex flex-col md:flex-row items-start md:items-end mt-2 md:mt-6 gap-4 md:gap-0">
       <div className='w-full md:w-2/4'>
         <h1 id='heading' className='font-semibold text-3xl md:text-[35px] leading-snug md:leading-tight'>
           <span className='block md:none mb-0.5'>A Teaching</span> <span className='block md:none mb-0.5'> Platform with </span> Flexibility, Finally.
@@ -74,7 +74,7 @@ const App = () => {
         <h6 className='text-xs font-bold mb-1'>Notify me when it releases:</h6>
         <div className='flex flex-row sm:flex-row gap-2'>
           <input type="text" className='flex-1 bg-white text-black outline-none px-4 text-sm py-1.5 rounded-sm' placeholder='Email Address'/>
-          <button className='bg-purple-700 text-sm font-semibold text-white rounded-sm px-4 py-1.5'>Add me</button>
+          <button className='bg-[#ff57c1]-700 text-sm font-semibold text-white rounded-sm px-4 py-1.5'>Add me</button>
         </div>
       </div>
     </div>
@@ -109,5 +109,6 @@ const App = () => {
 
   )
 }
+
 
 export default App
