@@ -1,0 +1,6 @@
+simple single page application or landing page with simple gsap 
+with timeline is implemented and is not mobile responsive.
+Used 
+> GSAP
+> Tailwind
+> React js
