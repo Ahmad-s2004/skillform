@@ -74,7 +74,7 @@ const App = () => {
         <h6 className='text-xs font-bold mb-1'>Notify me when it releases:</h6>
         <div className='flex flex-row sm:flex-row gap-2'>
           <input type="text" className='flex-1 bg-white text-black outline-none px-4 text-sm py-1.5 rounded-sm' placeholder='Email Address'/>
-          <button className='bg-[#ff57c1]-700 text-sm font-semibold text-white rounded-sm px-4 py-1.5'>Add me</button>
+          <button className='bg-[#ff57c1] text-sm font-semibold text-white rounded-sm px-4 py-1.5'>Add me</button>
         </div>
       </div>
     </div>
@@ -112,3 +112,4 @@ const App = () => {
 
 
 export default App
+
